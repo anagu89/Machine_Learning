@@ -38,16 +38,16 @@ Este documento describe el significado, formato y procedencia de las variables u
 
 Las columnas ATC representan ventas por subfamilias terapéuticas. Se convierten a numérico con coerción silenciosa y pueden faltar en algunos niveles.
 
-| Columna | Descripción (abreviada) |
-|---|---|
-| `M01AB` | Antiinflamatorios/antirreumáticos no esteroideos derivados del ácidos acético ( *diclofenaco, indometacina*) |
-| `M01AE` | Antiinflamatorios/antirreumáticos no esteroideos derivados del ácidos propiónicos (*ibuprofeno, naproxeno, ketoprofeno*) |
-| `N02BA` | Analgésicos del ácido salicílico y derivados (*aspirina*) |
-| `N02BE` | Analgésicos (*paracetamol*) |
-| `N05B`  | Ansiolíticos (*benzodiazepinas*)| 
-| `N05C`  | Hipnóticos y sedantes (*zolpidem*) |
-| `R03`   | Antiasmáticos/COPD (*salbutamol, budesonida, montelukast*)|
-| `R06`   | Antihistamínicos para uso sistémico (*loratadina, cetirizina*) |
+| Columna | Descripción (abreviada) | Ejemplos |
+|---|---|---|
+| `M01AB` | Antiinflamatorios/antirreumáticos no esteroideos derivados del ácidos acético | *diclofenaco, indometacina* |
+| `M01AE` | Antiinflamatorios/antirreumáticos no esteroideos derivados del ácidos propiónicos | *ibuprofeno, naproxeno, ketoprofeno* |
+| `N02BA` | Analgésicos del ácido salicílico y derivados | *aspirina* |
+| `N02BE` | Analgésicos | *paracetamol* |
+| `N05B`  | Ansiolíticos | *benzodiazepinas*| 
+| `N05C`  | Hipnóticos y sedantes | *zolpidem* |
+| `R03`   | Antiasmáticos/COPD | *salbutamol, budesonida, montelukast* |
+| `R06`   | Antihistamínicos para uso sistémico | *loratadina, cetirizina* |
 
 > **Nota:** En el pipeline, si alguna ATC no existe en el fichero, simplemente se ignora.
 
