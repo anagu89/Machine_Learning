@@ -40,14 +40,14 @@ Las columnas ATC representan ventas por subfamilias terapéuticas. Se convierten
 
 | Columna | Descripción (abreviada) |
 |---|---|
-| `M01AB` | Antiinflamatorios/antirreumáticos (ácidos propiónicos) |
-| `M01AE` | Antiinflamatorios/antirreumáticos (ácidos acéticos) |
-| `N02BA` | Analgésicos (ácido salicílico y derivados) |
-| `N02BE` | Analgésicos (otros, p. ej. paracetamol) |
-| `N05B`  | Ansiolíticos |
-| `N05C`  | Hipnóticos y sedantes |
-| `R03`   | Antiasmáticos/COPD |
-| `R06`   | Antihistamínicos para uso sistémico |
+| `M01AB` | Antiinflamatorios/antirreumáticos no esteroideos derivados del ácidos acético ( *diclofenaco, indometacina*) |
+| `M01AE` | Antiinflamatorios/antirreumáticos no esteroideos derivados del ácidos propiónicos (*ibuprofeno, naproxeno, ketoprofeno*) |
+| `N02BA` | Analgésicos del ácido salicílico y derivados (*aspirina*) |
+| `N02BE` | Analgésicos (*paracetamol*) |
+| `N05B`  | Ansiolíticos (*benzodiazepinas*)| 
+| `N05C`  | Hipnóticos y sedantes (*zolpidem*) |
+| `R03`   | Antiasmáticos/COPD (*salbutamol, budesonida, montelukast*)|
+| `R06`   | Antihistamínicos para uso sistémico (*loratadina, cetirizina*) |
 
 > **Nota:** En el pipeline, si alguna ATC no existe en el fichero, simplemente se ignora.
 
