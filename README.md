@@ -58,7 +58,10 @@ python src/data_processing.py
 python src/training.py
 python src/evaluation.py
 
-# 5. Lanzar dashboard
+# 5. Generar archivo KPIs
+python src/generate_kpis.py
+
+# 6. Lanzar dashboard
 streamlit run app_streamlit/app.py
 ```
 
