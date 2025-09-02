@@ -46,7 +46,7 @@ Las columnas ATC representan ventas por subfamilias terapéuticas. Se convierten
 | `N02BE` | Analgésicos | *paracetamol* |
 | `N05B`  | Ansiolíticos | *benzodiazepinas*| 
 | `N05C`  | Hipnóticos y sedantes | *zolpidem* |
-| `R03`   | Antiasmáticos/COPD | *salbutamol, budesonida, montelukast* |
+| `R03`   | Antiasmáticos/EPOC | *salbutamol, budesonida, montelukast* |
 | `R06`   | Antihistamínicos para uso sistémico | *loratadina, cetirizina* |
 
 > **Nota:** En el pipeline, si alguna ATC no existe en el fichero, simplemente se ignora.
@@ -222,4 +222,5 @@ app_streamlit/app.py
   - `src/training.py`  
   - `src/evaluation.py`  
   - `src/plots.py`  
+
 - **Dashboard:** `app_streamlit/app.py`
