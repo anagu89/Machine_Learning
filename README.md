@@ -27,6 +27,7 @@ Analizamos y predecimos ventas de medicamentos usando modelos de Machine Learnin
 │   ├── data_processing.py
 │   ├── training.py
 │   ├── evaluation.py
+│   ├── generate_kpis.py
 │   └── plots.py
 ├── app_streamlit/
 │   └── app.py            # Dashboard interactivo
@@ -97,5 +98,6 @@ streamlit run app_streamlit/app.py
 
 
 ## 📜 Licencia  
+
 
 No license. 
